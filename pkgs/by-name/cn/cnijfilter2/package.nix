@@ -15,11 +15,11 @@
 stdenv.mkDerivation {
   pname = "cnijfilter2";
 
-  version = "6.40";
+  version = "6.80";
 
   src = fetchzip {
-    url = "https://gdlp01.c-wss.com/gds/1/0100011381/01/cnijfilter2-source-6.40-1.tar.gz";
-    sha256 = "3RoG83jLOsdTEmvUkkxb7wa8oBrJA4v1mGtxTGwSowU=";
+    url = "https://gdlp01.c-wss.com/gds/2/0100012302/02/cnijfilter2-source-6.80-1.tar.gz";
+    sha256 = "sha256-3GmZd+KwuqyOX2HVzZGWSCff/3SsgTQwGLUcmXIQGiw=";
   };
 
   nativeBuildInputs = [
